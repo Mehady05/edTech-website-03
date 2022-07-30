@@ -1,0 +1,147 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header area start  */
+.nav-bar{}
+.nav-bar .navbar{}
+.nav-bar .navbar{}
+.nav-bar .navbar .navbar-brand{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #4A4A4A;
+}
+/* ul */
+.navbar-nav{}
+/* ul li */
+.navbar-nav .nav-item{
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.navbar-nav .nav-item:hover{
+    background-color: #289BDE;
+}
+/* ul li a */
+.navbar-nav .nav-item .nav-link{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #777777;
+    text-transform: uppercase;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #ffffff;
+}
+.navbar-nav .nav-item .active{
+    color: #289BDE;
+}
+.register{
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+    color: #289BDE;
+    padding: 13px 33px;
+    transition: .4s;
+}
+.register:hover{
+    background-color: #289BDE;
+    color: #ffffff;
+
+}
+
+
+/* banner area */
+.banner{
+    position: relative;
+}
+.shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(29, 29, 29, 0.7);
+    border-radius: 5px;
+}
+
+.banner .carousel-inner{}
+.banner .carousel-inner .carousel-item{
+    position: relative;
+}
+.get-btn{
+    background: #289BDE;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+    padding: 13px 33px;
+    color: #F4F4F4;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+.banner .carousel-inner .carousel-item img{
+   
+}
+.banner .carousel-inner .carousel-item .carousel-caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    z-index: 999;
+}
+.banner .carousel-inner .carousel-item .carousel-caption h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 85px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.banner .carousel-inner .carousel-item .carousel-caption p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #F4F4F4;
+}
+
+
+
+
+/* main courses area start here  */
+.courses-header{}
+.courses-header h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    color: #1D1D1D;
+}
+.courses-header p{}
