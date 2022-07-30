@@ -134,6 +134,9 @@ body{
 
 
 /* main courses area start here  */
+.full-couses-area{
+    margin-top: 130px;
+}
 .courses-header{}
 .courses-header h2{
     font-family: 'Poppins';
@@ -143,5 +146,69 @@ body{
     line-height: 60px;
     text-align: center;
     color: #1D1D1D;
+    text-transform: capitalize;
 }
-.courses-header p{}
+.courses-header p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #777777;
+}
+
+.single-course{
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+}
+.single-course .single-img{
+    border-radius: 5px;
+}
+.single-course .single-img img{
+    width: 100%;
+    height: 100%;
+}
+.single-course .single-course-details{
+    padding: 62px 27px 33px 10px;
+}
+.single-course .single-course-details h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    color: #4A4A4A;
+    text-transform: capitalize;
+}
+.single-course .single-course-details p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+
+}
+.single-course .single-course-details span.price{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #289BDE;
+    text-transform: capitalize;
+
+}
+.btn-see-more{
+    margin-top: 50px;
+}
+
+
+
+/* e learning start here */
+.elearning{
+    margin-top: 236px;
+    background: #F4FAFD;
+    border-radius: 5px;
+}
