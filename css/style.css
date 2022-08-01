@@ -134,7 +134,7 @@ body{
 
 
 /* main courses area start here  */
-.full-couses-area{
+.full-courses-area{
     margin-top: 130px;
 }
 .courses-header{}
@@ -211,4 +211,209 @@ body{
     margin-top: 236px;
     background: #F4FAFD;
     border-radius: 5px;
+}
+.e-learning h2{
+    text-align: left;
+}
+.e-learning p{
+    text-align: left;
+}
+
+.member-review{}
+.member-review .single-part{}
+.member-review .single-part span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    color: #1D1D1D;
+}
+.member-review .single-part p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #777777;
+}
+.read-more{
+    margin-left: 70px;
+}
+
+
+/* ready to join start  */
+.join{
+    margin-top: 130px;
+    background: #289BDE;
+    border-radius: 5px;
+    padding: 80px 100px;
+}
+.left-join{}
+.left-join h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.left-join p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #F4F4F4;
+}
+.rg{
+    background-color: #fff;
+    color: #289BDE;
+}
+
+
+/* successfull student  */
+.success{
+    margin-top: 130px;
+}
+.success-details{}
+.success-details h2{
+    text-align: left;
+}
+.success-details p{
+    text-align: left;
+}
+.single-success{
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+}
+.single-success .single-img{}
+.single-success .single-img img{}
+.single-details{
+    padding: 20px;
+}
+.single-details h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4A4A4A;
+}
+.single-details p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+}
+
+
+/* student feedback  */
+.student-feedback{
+    padding-top: 130px;
+}
+.slider{
+    position: relative;
+}
+.left-btn,
+.right-btn{
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    border-radius: 50%;
+    border: 0;
+    transform: translateY(-50%);
+    transition: .2s linear;
+}
+.left-btn:hover{
+    background-color: #289BDE;
+    color: #F4F4F4;
+}.right-btn:hover{
+    background-color: #289BDE;
+    color: #F4F4F4;
+}
+.left-btn{
+    left: -8px;
+}
+.right-btn{
+    right: -8px;
+}
+.slide-wrap{}
+.slide-wrap .single-slide{
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 5px;
+}
+.slide-wrap .single-slide .top-area{}
+.slide-wrap .single-slide .top-area .top-img{}
+.slide-wrap .single-slide .top-area .top-img img{}
+.slide-wrap .single-slide .top-area .star{
+    color: #FBBF24;
+}
+.slide-details{}
+.slide-details p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+}
+.people{}
+.people .left-man{
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.people .left-man img{
+    width: 100%;
+    height: auto;
+}
+.people .details-man{}
+.people .details-man h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+.people .details-man span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+}
+
+
+/* question area  */
+.question{
+    margin-top: 130px;
+}
+.accordion-button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4A4A4A;
+}
+.accordion-collapse{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
 }
