@@ -30,9 +30,10 @@
         line-height: 24px;
     }
     
-
-    .single-course{
-        display: none;
+  
+    .full-courses-area .single-course{
+        display: flex;
+        flex-direction: column;
     }
 
     .e-learning h2 {

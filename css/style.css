@@ -105,7 +105,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -18%) !important;
     right: 0;
     bottom: 0;
     padding: 0;
@@ -159,9 +159,11 @@ body{
     color: #777777;
 }
 
-.single-course{
+.full-courses-area .single-course{
     border: 1px solid #E8E8E8;
     border-radius: 5px;
+    display: flex;
+    flex-direction: row;
 }
 .single-course .single-img{
     border-radius: 5px;
