@@ -1,0 +1,134 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .nav-bar .navbar .navbar-brand {
+        font-size: 25px !important;
+        line-height: 38px !important;
+    }
+    .carousel-caption{
+        display: block !important;
+    }
+    .banner .carousel-inner .carousel-item .carousel-caption h5 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+    .banner .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+    .get-btn {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+
+
+    .courses-header h2 {
+        font-size: 18px !important;
+        line-height: 27px !important;
+    }
+    .courses-header p {
+        line-height: 14px !important;
+        line-height: 24px;
+    }
+    
+
+    .single-course{
+        display: none;
+    }
+
+    .e-learning h2 {
+       font-size: 20px !important;
+       line-height: 30px !important;
+    }
+    .mobile-rg{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .success-details h2 {
+        text-align: center !important;
+    }
+    .success-details p {
+        text-align: center !important;
+    }
+    .left-btn, .right-btn{
+        display: none;
+    }
+    .courses-header h2 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+    .advertise{
+        display: none;
+    }
+ }
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* .nav-bar{
+        position: relative;
+    } */
+    .register {
+        position: absolute;
+        top: 12px !important;
+        right: 90px !important;
+        padding: 7px 33px !important;
+    }
+    .banner .carousel-inner .carousel-item .carousel-caption h5 {
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+    .banner .carousel-inner .carousel-item .carousel-caption p {
+        font-size: 16px !important;
+    }
+    .get-btn {
+        font-size: 18px !important;
+        line-height: 27px !important;
+    }
+
+
+
+    .e-img img{
+        width: 100%;
+    }
+    /* .single-course{
+       
+    }
+     */
+    .courses-header h2 {
+        font-size: 30px !important;
+        line-height: 45px !important;
+    }
+    .courses-header p {
+        line-height: 26px !important;
+    }
+    .member-review .single-part span {
+        font-size: 25px !important;
+        line-height: 38px !important;
+    }
+    .member-review .single-part p {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+
+    .read-more {
+        margin-left: 0 !important;
+    }
+    /* .get-btn {
+        padding: 0px 13px !important;
+    } */
+
+    .single-img img{
+        width: 100%;
+    }
+    .success button{
+        display: none;
+    }
+
+    .left-btn, .right-btn{
+        display: none;
+    }
+    .advertise{
+        display: none;
+    }
+}

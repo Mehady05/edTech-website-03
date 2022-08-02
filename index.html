@@ -15,6 +15,8 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -22,7 +24,7 @@
   <!-- header area start -->
    <header class="container">
     <div class="row">
-      <div class="col">
+      <div class="col-md-12">
         <!-- navigation area -->
         <section class="nav-bar">
           <nav class="navbar navbar-expand-lg">
@@ -52,10 +54,10 @@
                     <a class="nav-link" href="#">register</a>
                   </li>
                 </ul>
+                <form class="d-flex" role="register">
+                  <button class="register">Register</button>
+                </form>
               </div>
-              <form class="d-flex" role="register">
-                <button class="register">Register</button>
-              </form>
             </div>
           </nav>
         </section>
@@ -119,7 +121,7 @@
           </div>
         </div>
         <div class="row g-0">
-          <div class="col-md-6 p-2">
+          <div class="col-md-12 col-lg-6 p-2">
             <div class="single-course d-flex">
               <div class="single-img w-100">
                 <img src="./images/course/course-1.png" alt="">
@@ -131,10 +133,10 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 p-2">
+          <div class="col-md-12 col-lg-6 p-2">
             <div class="single-course d-flex">
               <div class="single-img w-100">
-                <img src="./images/course/course-2.png" alt="">
+                <img src="./images/course/course-1.png" alt="">
               </div>
               <div class="single-course-details">
                 <h4>Fundamental Of UI/UX Design</h4>
@@ -143,10 +145,10 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 p-2">
+          <div class="col-md-12 col-lg-6 p-2">
             <div class="single-course d-flex">
               <div class="single-img w-100">
-                <img src="./images/course/course-3.png" alt="">
+                <img src="./images/course/course-1.png" alt="">
               </div>
               <div class="single-course-details">
                 <h4>Fundamental Of UI/UX Design</h4>
@@ -155,10 +157,10 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 p-2">
+          <div class="col-md-12 col-lg-6 p-2">
             <div class="single-course d-flex">
               <div class="single-img w-100">
-                <img src="./images/course/course-4.png" alt="">
+                <img src="./images/course/course-1.png" alt="">
               </div>
               <div class="single-course-details">
                 <h4>Fundamental Of UI/UX Design</h4>
@@ -167,10 +169,10 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 p-2">
+          <div class="col-md-12 col-lg-6 p-2">
             <div class="single-course d-flex">
               <div class="single-img w-100">
-                <img src="./images/course/course-5.png" alt="">
+                <img src="./images/course/course-1.png" alt="">
               </div>
               <div class="single-course-details">
                 <h4>Fundamental Of UI/UX Design</h4>
@@ -178,11 +180,11 @@
                 <span class="price">price : 20$</span>
               </div>
             </div>
-          </div>
-          <div class="col-md-6 p-2">
+          </div> 
+          <div class="col-md-12 col-lg-6 p-2">
             <div class="single-course d-flex">
               <div class="single-img w-100">
-                <img src="./images/course/course-6.png" alt="">
+                <img src="./images/course/course-1.png" alt="">
               </div>
               <div class="single-course-details">
                 <h4>Fundamental Of UI/UX Design</h4>
@@ -192,7 +194,7 @@
             </div>
           </div>
           <div class="col-md-12 d-flex justify-content-center btn-see-more">
-            <button class="get-btn">get started</button>
+            <button class="get-btn">view all</button>
           </div>
         </div>
       </div>
@@ -202,13 +204,13 @@
     <!-- e learning start here -->
     <section class="elearning">
       <div class="container">
-        <div class="row">
-          <div class="col-md-5">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-6 col-lg-6">
             <div class="e-img">
               <img class="img-fluid" src="./images/working.png" alt="">
             </div>
           </div>
-          <div class="col-md-7 d-flex flex-column justify-content-center align-items-center">
+          <div class="col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center">
             <div class="row">
               <div class="col-md-12">
                 <section class="courses-header e-learning">
@@ -236,7 +238,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 read-more">
+              <div class="col-md-5 read-more">
                 <button class="get-btn">read more</button>
               </div>
             </div>    
@@ -244,6 +246,8 @@
         </div>
       </div>
     </section>
+
+    <!-- join start here  -->
 
     <section class="join">
       <div class="container">
@@ -254,18 +258,55 @@
               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
             </div>
           </div>
-          <div class="col-md-6 d-flex justify-content-end align-items-center">
-            <button class="get-btn rg">register now</button>
+          <div class="col-md-6 d-flex justify-content-end align-items-center mobile-rg">
+            <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                register now
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">your application form</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </div>
     </section>
 
 
+    <!-- success start here  -->
     <section class="success">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12 col-lg-6">
             <section class="courses-header success-details">
               <h2>Meet Our Successfull Students
               </h2>
@@ -273,8 +314,8 @@
             </section>
           </div>
         </div>
-        <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
-          <div class="col"> 
+        <div class="row row-cols-2  row-cols-lg-4 g-2 g-lg-3">
+          <div class="col col-sm-12 d-flex justify-content-center align-items-center"> 
             <div class="single-success">
               <div class="single-img">
                 <img class="img-fluid" src="./images/student/student-1.png" alt="">
@@ -286,10 +327,10 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col col-sm-12 d-flex justify-content-center align-items-center">
             <div class="single-success">
               <div class="single-img">
-                <img class="img-fluid" src="./images/student/student-1.png" alt="">
+                <img class="img-fluid" src="./images/student/student-2.png" alt="">
               </div>
               <div class="single-details">
                 <h4>Awlad Hossain</h4>
@@ -298,10 +339,10 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col col-sm-12 d-flex justify-content-center align-items-center">
             <div class="single-success">
               <div class="single-img">
-                <img class="img-fluid" src="./images/student/student-1.png" alt="">
+                <img class="img-fluid" src="./images/student/student-3.png" alt="">
               </div>
               <div class="single-details">
                 <h4>Awlad Hossain</h4>
@@ -310,10 +351,10 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col col-sm-12 d-flex justify-content-center align-items-center">
             <div class="single-success">
               <div class="single-img">
-                <img class="img-fluid" src="./images/student/student-1.png" alt="">
+                <img class="img-fluid" src="./images/student/student-4.png" alt="">
               </div>
               <div class="single-details">
                 <h4>Awlad Hossain</h4>
@@ -331,6 +372,7 @@
       </div>
     </section>
 
+    <!-- student feedback start here  -->
     <section class="student-feedback">
       <div class="container">
         <div class="row d-flex justify-content-center">
@@ -510,10 +552,12 @@
       </div>
     </section>
 
+    <!-- question area start here  -->
+
     <section class="question">
       <div class="container">
         <div class="row d-flex justify-content-center">
-          <div class="col-md-8">
+          <div class="col-md-12 col-lg-12">
             <section class="courses-header">
               <h2>Frequently Asked Questions</h2>
               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -521,7 +565,7 @@
           </div>
         </div> 
         <div class="row d-flex justify-content-center">
-          <div class="col-md-8">
+          <div class="col-md-12 col-lg-12">
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
@@ -568,6 +612,8 @@
         </div>
       </div>
     </section>
+
+    <!-- advertisement start here  -->
 
     <section class="advertise">
       <div class="container">
